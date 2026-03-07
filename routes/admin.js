@@ -15,7 +15,7 @@ router.get("/categorias", (req, res) => {
   }).then((categorias) => {
     res.render("admin/categorias", { categorias: categorias });
   }).catch((error) => {
-    req.flash("error_msg", "Houve um erro ao listar a categoria")
+    req.flash("error_msg", "Houvee um erro ao listar a categoria")
     res.redirect("/admin")
   })
 });
