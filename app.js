@@ -46,5 +46,5 @@ app.use('/admin', admin);
 const PORT = 3000;
 
 app.listen(PORT, function(){
-    console.log('Servidor rodando na porta localhost:3000');
+    console.log('Servidor rodando na porta localhost:3000.');
 });
