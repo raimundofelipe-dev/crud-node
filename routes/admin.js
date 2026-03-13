@@ -44,7 +44,7 @@ router.post("/categorias/nova", (req, res) => {
       req.flash("success_msg", "Categoria criada com sucesso")
       res.redirect("/admin/categorias");
     }).catch(function (error) {
-      req.flash("error_msg", "Erro ao criar a categoria")
+      req.flash("error_msg", "Error ao criar a categoria")
       res.redirect("/admin");
     });
   }
